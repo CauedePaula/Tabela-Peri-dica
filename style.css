@@ -1,0 +1,205 @@
+body{
+    font-family: Roboto;
+   }
+   main{
+    background-color: rgb(13, 14, 14);
+    border-radius: 20px;
+    width: 985px;
+    margin: 20px auto ;
+    padding: 20px;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(18, 50px);
+    grid-template-rows: repeat(7,50px) 20px repeat(2,50px);
+   }
+   h1{
+    display: flex; justify-content: center;
+   }
+   main > div{
+    background-color: #f0f0f0;
+    border-radius: 4px;
+   }
+   main > div > h2{
+    margin: 0;
+    text-align: center;
+   }
+   main > div > span{
+    font-size: 9px;
+    display: block;
+    padding: 2px;
+   }
+   main > div:nth-child(2){
+    grid-column-start: 18;
+   }
+   main > div:nth-child(5){
+    grid-column-start: 13;
+   }
+   main > div:nth-child(13){
+    grid-column-start: 13;
+   }
+   main > div:nth-child(57){
+    grid-column-start: 4;
+    grid-row-start: 57/72;
+   }
+   main >div:nth-child(74){
+    grid-column-start: 4;
+   }
+   main >div:nth-child(104){
+    grid-column-start: 4;
+    grid-row-start: 10;
+   
+   }
+   main >div:nth-child(105){
+    grid-column-start:5;
+    grid-row-start: 10;
+   }
+   main >div:nth-child(106){
+    grid-column-start: 6;
+    grid-row-start: 10;
+   }
+   main >div:nth-child(107){
+    grid-column-start: 7;
+    grid-row-start:10;
+   }
+   main >div:nth-child(108){
+    grid-column-start: 8;
+    grid-row-start:10 ;
+   }
+   main >div:nth-child(109){
+    grid-column-start: 9;
+    grid-row-start:10;
+   }
+   main >div:nth-child(110){
+    grid-column-start: 10;
+    grid-row-start:10;
+   }
+   main >div:nth-child(111){
+    grid-column-start:11;
+    grid-row-start:10;
+   }
+   main >div:nth-child(112){
+    grid-column-start: 12;
+    grid-row-start:10;
+   }
+   main >div:nth-child(113){
+    grid-column-start:13;
+    grid-row-start:10;
+   }
+   main >div:nth-child(114){
+    grid-column-start:14;
+    grid-row-start:10;
+   }
+   main >div:nth-child(115){
+    grid-column-start: 15;
+    grid-row-start:10;
+   }
+   main >div:nth-child(116){
+    grid-column-start:16;
+    grid-row-start:10;
+   }
+   main >div:nth-child(117){
+    grid-column-start:17;
+    grid-row-start:10;
+   }
+   main >div:nth-child(118){
+    grid-column-start:18;
+    grid-row-start:10;
+   }
+   main >div:nth-child(89){
+    grid-row-start: 9;
+   }
+   main >div:nth-child(102){
+    grid-row-start:9 ;
+    grid-column-start:17;
+   }
+   main >div:nth-child(103){
+    grid-row-start:9;
+    grid-column-start:18;
+   }
+   main >div:nth-child(101){
+    grid-row-start:9 ;
+    grid-column-start:16;
+   }
+   main >div:nth-child(100){
+    grid-row-start:9 ;
+    grid-column-start:15;
+   }
+   main >div:nth-child(99){
+    grid-row-start:9 ;
+    grid-column-start:14;
+   }
+   main >div:nth-child(98){
+    grid-row-start:9 ;
+    grid-column-start:13;
+   }
+   main >div:nth-child(97){
+    grid-row-start:9 ;
+    grid-column-start:12;
+   }
+   main >div:nth-child(96){
+    grid-row-start:9 ;
+    grid-column-start:11;
+   }
+   main >div:nth-child(95){
+    grid-row-start:9 ;
+    grid-column-start:10;
+   }
+   main >div:nth-child(94){
+    grid-row-start:9 ;
+    grid-column-start:9;
+   }
+   main >div:nth-child(93){
+    grid-row-start:9 ;
+    grid-column-start:8;
+   }
+   main >div:nth-child(92){
+    grid-row-start:9;
+    grid-column-start: 7;
+   }
+   main >div:nth-child(91){
+    grid-row-start:9 ;
+    grid-column-start:6;
+   }
+   main >div:nth-child(90){
+    grid-row-start:9;
+    grid-column-start:5;
+   }
+   main >div:nth-child(89){
+    grid-row-start:9 ;
+    grid-column-start:4;
+   }
+   .H, .nn, .O, .F, .Cl, .Br, .I{
+    background-color: rgb(238, 126, 45);
+   }
+   .li, .na, .K, .Rb, .Cs, .Fr {
+    background-color: rgb(219, 31, 31);
+   }
+   .Be, .Mg, .Ca, .Sr, .Ba, .Ra{
+    background-color: rgb(223, 192, 115);
+   }
+   .Sc, .Y, .Ti, .Zr, .Hf, .Rf, .V, .Nb, .Ta, .Db, .Cr, .Mo, .W, .Sg, .Mn, .Tc,
+   .Re, .Bh, .Fe, .Ru, .Os, .Hs, .Co, .Rh, .Ir, .Ni, .Pd, .Pt, .Cu, .Ag, .Au, .Zn,
+   .Cd, .Hg, .Cn{
+    background-color: rgb(86, 207, 86);
+   }
+   .B, .Si, .Ge, .As, .Sb, .Te, .At{
+    background-color: rgb(236, 233, 41);
+   }
+   .Al, .Ga, .In, .TI, .Sn, .Pb, .Bi, .Po{
+    background-color: rgb(168, 87, 226);
+   }
+   .Mt, .Ds, .Rg, .Nh, .Fl, .Mc, .Lv, .Ts, .Og{
+    background-color: rgb(143, 142, 142);
+   }
+   .C, .P, .S, .Se{
+    background-color: rgb(31, 97, 31);
+   }
+   .He, .Ne, .Ar, .Kr, .Xe, .Rn{
+    background-color: rgb(252, 77, 170);
+   }
+   .La, .Ce, .Pr, .Nd, .Pm, .Sm, .Eu, .Gd, .Tb, .Dy, .Ho, .Er, .Tm, .Yb, .Lu{
+    background-color: rgb(26, 26, 194);
+   }
+   .Ac, .Th, .Pa, .U, .Np, .Pu, .Am, .Cm, .Bk, .Cf, .Es, .Fm, .Md, .No, .Lr{
+    background-color: rgb(94, 160, 247);
+}
